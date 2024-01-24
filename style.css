@@ -1,0 +1,108 @@
+body{
+    background-color: rgb(228, 143, 157);
+}
+.circular{
+    display: block; margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    margin-bottom: auto;
+    /* border-style:groove; */
+    width: 150px;
+    height: 150px;
+    object-fit:cover;
+    border-radius: 50%;
+    margin-left: auto;
+    opacity: 0.95;
+    border-color: rgb(218, 134, 148);
+    border-width: 5px;
+    border-style:solid;
+}
+
+#header2{
+    font-size: 20px;
+    text-align: center;
+    color:black;
+    font-family: Verdana,Tahoma, sans-serif;
+
+}
+
+.desc{
+    font-family: Verdana,Tahoma, sans-serif;
+    font-size: 15px;
+    text-align: center;
+    color: rgb(64, 62, 62);
+}
+.links{
+    text-align: center;
+    display: block;
+    margin-top: 30px;
+    width: 250px;
+    
+    border: 200px solid rgb(198, 101, 132);
+    border-width: 1px;
+    border-radius: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(247, 122, 162);
+    font-size: 18px;
+
+    
+    
+}
+
+a{
+    display: inline;
+    text-decoration: none;
+    color: rgb(254, 248, 247);
+    transition: color 500ms;
+}
+
+a:hover{
+    color:rgb(0, 0, 0);
+    background-color: rgb(225, 107, 145);
+    transition: cubic-bezier(.07,1.41,.82,1.41) 0.2s;
+    transform: scale(1.02);
+    
+}
+
+.logo{
+    align-items: center;
+    margin-left: 30%;
+    margin-right: auto;
+
+}
+
+.tile{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(247, 122, 162);
+    margin: 7px;
+    border-radius: 17px;
+    border: 200px solid rgb(198, 101, 132);
+    border-width: 1px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.tile-share{
+    background-color: black;
+    height: 30px;
+    width: 30px;
+    border-radius: 15px;
+    margin: 9px;
+    opacity: .6;
+}
+.tile-share:hover{
+    opacity: 0.9;
+}
+
+.tile-share svg{
+    margin-left: 7px;
+    margin-top: 7px;
+    
+}
+.icon{
+    height: 30px;
+    width: 30px;
+    margin: 9px;
+}
